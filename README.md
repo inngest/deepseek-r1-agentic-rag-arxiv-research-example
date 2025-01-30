@@ -43,6 +43,8 @@ You should be redirected to the Runs view and see your workflow run.
 
 ## Running the application locally
 
+### Installation
+
 1. Install dependencies:
 
    ```bash
@@ -56,7 +58,7 @@ DEEPSEEK_API_KEY=test
 DEEPSEEK_BASE_URL=https://<YOUR_DOMAIN_PREFIX>.koyeb.app/v1
 ```
 
-## Running the Application
+### Running the Application
 
 1. Start the development server:
 
@@ -70,7 +72,7 @@ DEEPSEEK_BASE_URL=https://<YOUR_DOMAIN_PREFIX>.koyeb.app/v1
 npx inngest-cli@latest dev
 ```
 
-## Usage
+### Usage
 
 Open the browser and navigate to `http://127.0.0.1:8288/` to access the Inngest Dev Server.
 
