@@ -1,15 +1,13 @@
 import "dotenv/config";
+import OpenAI from "openai";
 import express from "express";
 import { Inngest } from "inngest";
 import { serve } from "inngest/express";
 import { parseStringPromise } from "xml2js";
-
-import OpenAI from "openai";
+const pdfreader = require("pdfreader");
 
 const MAX_PAGES = 5;
 const MAX_RESULTS = 3;
-
-const pdfreader = require("pdfreader");
 
 async function searchArxiv(query: string, maxResults = MAX_RESULTS) {
   const response = await fetch(
