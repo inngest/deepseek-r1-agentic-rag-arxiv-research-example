@@ -35,7 +35,9 @@ Once the sync successful, navigate to the Functions tabs and invoke the `arxiv-r
 
 ```json
 {
-  "query": "What are the latest advancements in deep learning optimization techniques?"
+  "data": {
+    "input": "What are the latest advancements in deep learning optimization techniques?"
+  }
 }
 ```
 
@@ -80,7 +82,9 @@ Navigate to the Functions tabs and invoke the `arxiv-research-assistant` functio
 
 ```json
 {
-  "query": "What are the latest advancements in deep learning optimization techniques?"
+  "data": {
+    "input": "What are the latest advancements in deep learning optimization techniques?"
+  }
 }
 ```
 
